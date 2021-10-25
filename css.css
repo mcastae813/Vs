@@ -1,0 +1,40 @@
+* {
+font-family: Arial;
+background-color: grey;
+}
+
+h{
+color:white
+}
+
+body{
+color: #cc0066;
+
+}
+
+.box{
+height: 100px;
+with: 100px;
+padding: 25px;
+margin: 25px;
+border: 10px solid black;
+background-color: white;
+}
+
+
+
+.gay{
+padding :10px;
+color: red;
+}
+
+.gay-1{background-color: black; }
+
+#gei{
+property: value;
+} //limited pretty bad tbh
+//use class better
+
+
+
+
