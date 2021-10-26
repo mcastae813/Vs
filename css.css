@@ -14,7 +14,7 @@ color: white;
 
 .box{
 height: 100px;
-with: 100px;
+width: 100px;
 padding: 25px;
 margin: 25px;
 border: 10px solid black;
@@ -29,11 +29,6 @@ color: red;
 }
 
 .gay-1{background-color: black; }
-
-#gei{
-property: value;
-} //limited pretty bad tbh
-//use class better
 
 
 
