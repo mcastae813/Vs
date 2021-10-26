@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster);
+@import url(https://fonts.googleapis.com/css2?family=Metal+Mania);
+
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+
+}
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 1px solid #777;
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+
+.nav a:hover{
+    background-color: #777;
+    color: black;
+}
+
+.main-head{
+    background-color: rgba(0,0,0,.6);
+    background-image: url(/img/main.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.hotpink{
+    color: #cc0067;
+}
+
+.head-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: lobster;
+    font-weight: normal;
+    color: white;
+}
+
+.head-name-large{
+    font-size: 8em;
+}
+
+
+.content-section{
+margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: metal mania;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 3em;
+}
+
+.about-home-img{
+    float: left;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color: #cc0067;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow:  1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+   width: 90%;
+}
